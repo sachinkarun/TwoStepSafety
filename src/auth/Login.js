@@ -26,7 +26,6 @@ const Login = ({ navigation }) => {
             <Text style={{color:"#fff", fontWeight:'bold', fontSize:26, paddingHorizontal:30}}>Welcome Back</Text>
          
             <View style={styles.login}>
-
                 <View style={styles.input}>
                     <TextInput placeholder="Email" keyboardType="email-address"  placeholderTextColor="#d1d8e0" style={{color:"#ffffff"}} value={user.email} onChangeText={(txt) => setUser({...user, email:txt})} />
                 </View>
