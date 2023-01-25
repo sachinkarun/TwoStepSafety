@@ -19,6 +19,7 @@ const Login = ({ navigation }) => {
     }
 
     return(
+
         <View style={styles.container}>
             <StatusBar barStyle="light-content" backgroundColor="#080f16" />
 
